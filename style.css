@@ -1,0 +1,14 @@
+body{
+  background-color: rgb(22, 222, 223);
+}
+
+.matriz{
+  display: flex;
+  justify-content: center;
+}
+
+.rotacao{
+  display: flex;
+  margin-top: 2rem;
+  justify-content: center;
+}
