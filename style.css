@@ -1,14 +1,46 @@
 body{
-  background-color: rgb(22, 222, 223);
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
 }
 
 .matriz{
+  margin-top: 40PX;
+  height: 70%;
   display: flex;
   justify-content: center;
 }
 
 .rotacao{
-  display: flex;
-  margin-top: 2rem;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.5rem;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.rotacao label{
+  text-align: left;
+  font-weight: bold;
+}
+
+.rotacao button{
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 4px;
+  background-color: aqua;
+  color: black;
+  cursor: pointer;
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+  grid-column: 1/-1;
+}
+
+.rotacao button:hover{
+  background-color: #00bfff;
+  color: white;
 }
